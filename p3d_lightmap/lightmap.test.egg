@@ -1,0 +1,379 @@
+<CoordinateSystem> { Z-up } 
+<Material> Material.001 {
+  <Scalar> baser { 0.800000011920929 }
+  <Scalar> baseg { 0.800000011920929 }
+  <Scalar> baseb { 0.800000011920929 }
+  <Scalar> basea { 1.0 }
+  <Scalar> emitr { 0.0 }
+  <Scalar> emitg { 0.0 }
+  <Scalar> emitb { 0.0 }
+  <Scalar> emita { 1.0 }
+  <Scalar> shininess { 0.5 }
+  <Scalar> roughness { 0.4000000059604645 }
+  <Scalar> metallic { 0.0 }
+  <Scalar> ior { 1.4500000476837158 }
+  <Scalar> local { 0 }
+}
+
+<Material> Material.002 {
+  <Scalar> baser { 0.800000011920929 }
+  <Scalar> baseg { 0.800000011920929 }
+  <Scalar> baseb { 0.800000011920929 }
+  <Scalar> basea { 1.0 }
+  <Scalar> emitr { 0.0 }
+  <Scalar> emitg { 0.0 }
+  <Scalar> emitb { 0.0 }
+  <Scalar> emita { 1.0 }
+  <Scalar> shininess { 0.5 }
+  <Scalar> roughness { 0.4000000059604645 }
+  <Scalar> metallic { 0.0 }
+  <Scalar> ior { 1.4500000476837158 }
+  <Scalar> local { 0 }
+}
+
+<Texture> Untitled {
+  "./tex/Untitled.png"
+  <Scalar> format { rgba }
+  <Scalar> envtype { modulate }
+  <Scalar> uv-name { lightmap }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+}
+
+<Texture> Untitled.001 {
+  "./tex/Untitled.001.png"
+  <Scalar> format { rgba }
+  <Scalar> envtype { modulate }
+  <Scalar> uv-name { lightmap }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+}
+
+  <Group> Cube {
+    <Transform> {
+      <Matrix4> {
+        1.0 0.0 0.0 0.0 
+        0.0 1.0 0.0 0.0 
+        0.0 0.0 1.0 0.0 
+        0.0 0.0 -0.10057659447193146 1.0 
+      }
+    }
+    
+    <VertexPool> Cube {
+    
+      <Vertex> 0 {1.000000 1.000000 0.899423
+        <UV> uv {
+          0.332332 0.001001 
+        }
+        <UV> lightmap {
+          0.332332 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {-1.000000 1.000000 0.899423
+        <UV> uv {
+          0.001001 0.001001 
+        }
+        <UV> lightmap {
+          0.001001 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {-1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.001001 0.332332 
+        }
+        <UV> lightmap {
+          0.001001 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.332332 0.332332 
+        }
+        <UV> lightmap {
+          0.332332 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 4 {1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.332332 0.334334 
+        }
+        <UV> lightmap {
+          0.332332 0.334334 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 5 {1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.001001 0.334334 
+        }
+        <UV> lightmap {
+          0.001001 0.334334 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 6 {-1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.001001 0.665666 
+        }
+        <UV> lightmap {
+          0.001001 0.665666 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 7 {-1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.332332 0.665666 
+        }
+        <UV> lightmap {
+          0.332332 0.665666 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 8 {-1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.665666 0.001001 
+        }
+        <UV> lightmap {
+          0.665666 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 9 {-1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.334334 0.001001 
+        }
+        <UV> lightmap {
+          0.334334 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 10 {-1.000000 1.000000 0.899423
+        <UV> uv {
+          0.334334 0.332332 
+        }
+        <UV> lightmap {
+          0.334334 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 11 {-1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.665666 0.332332 
+        }
+        <UV> lightmap {
+          0.665666 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 12 {-1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.665666 0.334334 
+        }
+        <UV> lightmap {
+          0.665666 0.334334 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 13 {1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.334334 0.334334 
+        }
+        <UV> lightmap {
+          0.334334 0.334334 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 14 {1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.334334 0.665666 
+        }
+        <UV> lightmap {
+          0.334334 0.665666 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 15 {-1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.665666 0.665666 
+        }
+        <UV> lightmap {
+          0.665666 0.665666 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 16 {1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.332332 0.667668 
+        }
+        <UV> lightmap {
+          0.332332 0.667668 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 17 {1.000000 1.000000 0.899423
+        <UV> uv {
+          0.001001 0.667668 
+        }
+        <UV> lightmap {
+          0.001001 0.667668 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 18 {1.000000 -1.000000 0.899423
+        <UV> uv {
+          0.001001 0.998999 
+        }
+        <UV> lightmap {
+          0.001001 0.998999 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 19 {1.000000 -1.000000 -1.100577
+        <UV> uv {
+          0.332332 0.998999 
+        }
+        <UV> lightmap {
+          0.332332 0.998999 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 20 {-1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.998999 0.001001 
+        }
+        <UV> lightmap {
+          0.998999 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 21 {-1.000000 1.000000 0.899423
+        <UV> uv {
+          0.667668 0.001001 
+        }
+        <UV> lightmap {
+          0.667668 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 22 {1.000000 1.000000 0.899423
+        <UV> uv {
+          0.667668 0.332332 
+        }
+        <UV> lightmap {
+          0.667668 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 23 {1.000000 1.000000 -1.100577
+        <UV> uv {
+          0.998999 0.332332 
+        }
+        <UV> lightmap {
+          0.998999 0.332332 
+        }
+        <RGBA> { 1 1 1 1 }
+      }}
+    
+    
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { Cube }} 
+    }
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {0.000000 -1.000000 0.000000}
+      <VertexRef> { 4 5 6 7 <Ref> { Cube }} 
+    }
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {-1.000000 0.000000 0.000000}
+      <VertexRef> { 8 9 10 11 <Ref> { Cube }} 
+    }
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {0.000000 0.000000 -1.000000}
+      <VertexRef> { 12 13 14 15 <Ref> { Cube }} 
+    }
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {1.000000 0.000000 0.000000}
+      <VertexRef> { 16 17 18 19 <Ref> { Cube }} 
+    }
+    <Polygon> {
+      <TRef> { Untitled }
+      <MRef> { Material.002 }
+      <Normal> {0.000000 1.000000 0.000000}
+      <VertexRef> { 20 21 22 23 <Ref> { Cube }} 
+    }
+  }
+  <Group> Plane {
+    <Transform> {
+      <Matrix4> {
+        8.650801658630371 0.0 0.0 0.0 
+        0.0 8.650801658630371 0.0 0.0 
+        0.0 0.0 8.650801658630371 0.0 
+        0.0 0.0 -1.0662606954574585 1.0 
+      }
+    }
+    
+    <VertexPool> Plane {
+    
+      <Vertex> 0 {-8.650802 -8.650802 -1.066261
+        <UV> uv {
+          0.999900 0.999900 
+        }
+        <UV> lightmap {
+          0.998999 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {8.650802 -8.650802 -1.066261
+        <UV> uv {
+          0.000100 0.999900 
+        }
+        <UV> lightmap {
+          0.001001 0.001001 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {8.650802 8.650802 -1.066261
+        <UV> uv {
+          0.000100 0.000100 
+        }
+        <UV> lightmap {
+          0.001001 0.998999 
+        }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {-8.650802 8.650802 -1.066261
+        <UV> uv {
+          0.999900 0.000100 
+        }
+        <UV> lightmap {
+          0.998999 0.998999 
+        }
+        <RGBA> { 1 1 1 1 }
+      }}
+    
+    
+    <Polygon> {
+      <TRef> { Untitled.001 }
+      <MRef> { Material.001 }
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { Plane }} 
+    }
+  }
